@@ -32,10 +32,11 @@ This project focuses on exploring the security vulnerabilities within SCADA syst
 3. **Run Nmap** to identify open services, focusing on the Modbus protocol's port.
 4. **Simulate attacks** using Metasploit's Modbus-specific modules:
    - `modbusdetect`: Detect Modbus services on the network.
-   - `modbus_findunitid`: Identify slave devices connected to Modbus.
-   - `modbusclient`: Exploit vulnerabilities by modifying register values.
 
       ![image](https://github.com/user-attachments/assets/7d585998-d66c-486d-a093-0c99560c0136)
+
+   - `modbus_findunitid`: Identify slave devices connected to Modbus.
+   - `modbusclient`: Exploit vulnerabilities by modifying register values.
 
       ![image](https://github.com/user-attachments/assets/37f6de17-f71b-4a12-8605-40f5ffcd5229)
 
