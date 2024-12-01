@@ -25,12 +25,24 @@ This project focuses on exploring the security vulnerabilities within SCADA syst
 ### Steps to Run
 
 1. **Set up the simulation environment** using Factory IO and OpenPLC runtime.
+   
+   ![image](https://github.com/user-attachments/assets/8c385a92-94e7-434e-994e-84fdc8609504)
+
 2. **Configure ScadaBR** to monitor and visualize the industrial process.
 3. **Run Nmap** to identify open services, focusing on the Modbus protocol's port.
 4. **Simulate attacks** using Metasploit's Modbus-specific modules:
    - `modbusdetect`: Detect Modbus services on the network.
    - `modbus_findunitid`: Identify slave devices connected to Modbus.
    - `modbusclient`: Exploit vulnerabilities by modifying register values.
+
+      ![image](https://github.com/user-attachments/assets/7d585998-d66c-486d-a093-0c99560c0136)
+
+      ![image](https://github.com/user-attachments/assets/37f6de17-f71b-4a12-8605-40f5ffcd5229)
+
+      ![image](https://github.com/user-attachments/assets/dff9aeeb-e935-433e-80c5-1bb0b8715a1a)
+
+      ![image](https://github.com/user-attachments/assets/8d36ecb8-43ea-4fbc-99f7-5898fa0736f1)
+
 
 ## Vulnerability Insights
 
